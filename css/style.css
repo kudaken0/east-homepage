@@ -1,6 +1,7 @@
 body {
     color: var(--main-text);
     background-color: var(--main-bg);
+    background-color: black;
   }
 .img1{
     position: fixed;
@@ -22,17 +23,7 @@ body {
           transform: scale(1);
         }
       }  
-  :root {
-    --main-text: #333;
-    --main-bg: #fff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --main-text: #ddd;
-      --main-bg: #000;
-    }
-  }
-   
+
   .bg{
 	position: relative;
 	width: 100%;
@@ -79,10 +70,12 @@ h2 {
 	text-align:center;
 	line-height:0.95em;
 	font-weight:bold;
+  color: white;
 }
 p {
     font-size: 2em;
     text-align: center;
+    color: white;
 }
 #MORE {
      background-color: rgb(194, 94, 94);
