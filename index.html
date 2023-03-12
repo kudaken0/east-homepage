@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link href="./css/style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>EAST HomePage - top</title>
+    </head> 
+    <body>
+    <a href="./index.html"><img class="img1" src="./img/east-top.png" alt=""></a>
+     <div class="bg">  
+        <div class="video">
+            <video width="320" height="180" id="myVideo" muted autoplay playsinline loop>
+                <source src="./img/East_movie.mp4" type="video/mp4">
+              </video>
+              <img class="header" width="320" height="180" id="myImage" src="./img/header.png" style="display:none;">
+              <script>
+           var myVideo = document.getElementById('myVideo');
+           var myImage = document.getElementById('myImage');
+           
+           setTimeout(function() {
+             myVideo.style.display = 'none';
+             myImage.style.display = 'block';
+           }, 2000); // 5秒後に表示を切り替える
+              </script>
+        </div>
+    </div>
+        <h1>about</h1>
+        <p>『EAST』は2022年8月25日に結成されたフォートナイトチームで、育成、競技、エディター、デザイナー、マネージャー、運営、スポンサー部門の7部門を展開し積極的に活動を行っています。</p>
+        <p>owner レレイ</p>
+        <h1>MEMBER</h1>
+        <p>※希望者のみ</p>
+        <div class="slide-wrap">
+            <div class="slide-content"><a href="./page/member/rerei.html"><img class="slider-png" src="./img/rerei.png" alt=""></a></div>
+            <div class="slide-content"><a href="./page/member/craft.html"><img class="slider-png" src="./img/craft.png" alt=""></a></div>
+            <div class="slide-content"><a href="./page/member/syoko.html"><img class="slider-png" src="./img/syoko.png" alt=""></a></div>
+            <div class="slide-content"><a href="./page/member/myon.html"><img  class="slider-png" src="./img/myon.png" alt=""></a></div>
+            <div class="slide-content"><a href="./page/member/art.html"><img  class="slider-png" src="./img/art.png" alt=""></a></div>
+            </div>
+        <a href="./page/member.html" style="color:black; "><p><span id="MORE">MORE ></span></p></a>
+    </body>
+     </html>
