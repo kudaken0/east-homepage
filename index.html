@@ -1,12 +1,14 @@
 <html>
     <head>
-        <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/style.css?20230415" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>EAST HomePage - top</title>
     </head> 
     <body>
-    <a href="./index.html"><img class="img1" src="./img/east-top.png" alt=""></a>
+        <header>
+            <a href="https://east-team.net"><img class="img1" src="./img/east-top.png" alt=""></a>
+        </header>
      <div class="bg">  
         <div class="video">
             <video width="320" height="180" id="myVideo" muted autoplay playsinline loop>
@@ -14,13 +16,13 @@
               </video>
               <img class="header" width="320" height="180" id="myImage" src="./img/header.png" style="display:none;">
               <script>
-           var myVideo = document.getElementById('myVideo');
-           var myImage = document.getElementById('myImage');
-           
-           setTimeout(function() {
-             myVideo.style.display = 'none';
-             myImage.style.display = 'block';
-           }, 2000); // 2秒後に表示を切り替える
+                var myVideo = document.getElementById('myVideo');
+                var myImage = document.getElementById('myImage');
+                
+                setTimeout(function() {
+                  myVideo.style.display = 'none';
+                  myImage.style.display = 'block';
+                }, 2000); // 2秒後に表示を切り替える
               </script>
         </div>
     </div>
@@ -39,5 +41,20 @@
         <a href="./page/member.html" style="color:black; "><p><span id="MORE">MORE ></span></p></a>
            <h1>github(開発者向け)</h1>
            <a href="https://github.com/kudaken0/east-homepage" style="color:black; "><p><span id="MORE">MORE ></span></p></a>
-    </body>
+            <br>
+           <footer>
+           <nav> 
+            <p>無断で当ホームページの画像を使用することは固く禁じられています。</p>
+            <div><a href="https://twitter.com/east_clan1st"><img class="twitter-png" src="./img/12e/twitter.png" alt=""></a></div>
+            <p>・外部リンク</p>
+            <a href="https://gameic.jp/team-detail/?g_name=EAST&rep=%E3%83%AC%E3%83%AC%E3%82%A4" style="color: white"><p style="font-size: 19px;">認証団体</p></a>
+            <a href="https://twitter.com/east_rerei" style="color: white"><p style="font-size: 19px;">オーナーのTwitter</p></a>
+            <img src="./img/12e/kudaken.png" class="img2" alt="">
+            <p>【くだけん】</p>
+            <p>私が作りました</p>      
+            <a href="https://lit.link/kudaken" style="color: white;"><p style="font-size: 22px;">製作者のSNS集</p></a>
+            <p>copyright EAST e-Sports team - @kudaken0</p>
+           </nav>
+         </footer>
+        </body>
      </html>
